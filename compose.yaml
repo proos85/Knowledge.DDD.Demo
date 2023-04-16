@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  knowledge_ddd_demo:
+    build: .
+    image: knowledge_ddd_demo
+    ports:
+      - "8080:80"
