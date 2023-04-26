@@ -167,7 +167,7 @@ public class PurchaseOrderController : BaseController
     /// </summary>
     /// <param name="snackMachineIdValue">Snack machine identity.</param>
     /// <param name="requestBodyData">Request body data</param>
-    [HttpGet]
+    [HttpPost]
     [ProducesDefaultResponseType]
     [ProducesResponseType(200)]
     [ProducesResponseType(400)]
